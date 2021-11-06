@@ -11,3 +11,39 @@
     --font-raleway: 'Raleway', sans-serif;
     --border-radius-small: 23px;
 }
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1352px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 3px 6px #00000029;
+}
+.header__logo{
+    font-family: var(--font-raleway);
+    font-size: 32px;
+    color: var(--color-primary);
+}
+.nav__link{
+    font-family: var(--font-open-sans);
+    font-size: 11px;
+    font-weight: bold;
+    padding: 28px 27px;
+    color: var(--color-grey);
+}
+.nav__link:hover{
+    cursor: pointer;
+    color: var(--color-black);
+}
