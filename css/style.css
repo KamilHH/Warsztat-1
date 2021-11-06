@@ -37,7 +37,7 @@ a{
     justify-content: center;
     box-shadow: 0 3px 6px #00000029;
 }
-.header__logo{
+.logo{
     font-family: var(--font-raleway);
     font-size: 32px;
     color: var(--color-primary);
@@ -48,16 +48,17 @@ a{
     padding: 28px 27px;
     color: var(--color-grey);
     text-transform: uppercase;
+    border-bottom: 4px solid transparent;
 }
 .nav__link:hover{
     cursor: pointer;
     color: var(--color-black);
+    border-color: var(--color-primary);
 }
 .opening{
     text-align: center;
 }
 .opening__container{
-
 }
 .opening__container h1{
     margin-top: 130px;
@@ -68,9 +69,9 @@ a{
 }
 .opening__container p{
     margin-bottom: 60px;
-
 }
 .opening__container a{
+    height: 100%;
     margin-bottom: 15px;
     font-weight: bold;
     color: var(--color-white);
@@ -378,6 +379,7 @@ a{
     padding: 80px 100px 100px;
     display: flex;
     justify-content: center;
+
 }
 .contact__column {
     width: 50%;
@@ -492,4 +494,34 @@ a{
     margin-top: 20px;
     background-color: var(--color-primary);
     border-radius: 35px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background: var(--color-light-grey);
+    box-shadow: 0 -5px 40px #00000029;
+    padding: 20px 0;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer__copy {
+    font-size: 0.6875rem;
+    line-height: 1.5rem;
+    color: var(--color-grey);
+    margin-top: 6px;
+}
+
+.footer__icons a:first-of-type {
+    margin-right: 25px;
 }
