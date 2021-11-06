@@ -376,7 +376,7 @@ a{
     --accent-color: var(--color-green);
 }
 .contact {
-    padding: 80px 100px 100px;
+    padding: 0px 600px 100px;
     display: flex;
     justify-content: center;
 
