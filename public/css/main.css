@@ -102,6 +102,29 @@ h2 {
   color: #08A6E4;
 }
 
+.btn {
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  padding: 16px 65px;
+  border-radius: 35px;
+  border: none;
+}
+.btn--primary {
+  background-color: #08A6E4;
+  border-radius: 35px;
+  box-shadow: 3px 10px 14px rgba(7, 172, 230, 0.16);
+}
+.btn--redish {
+  background-color: #FB3B64;
+}
+.btn--green {
+  background-color: #55DFB4;
+}
+.btn--large {
+  padding: 22px 155px;
+}
+
 .header {
   height: 70px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
