@@ -24,7 +24,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-/* make sure to set some focus styles for accessibility */
+/* make sure to set some focus settings for accessibility */
 :focus {
     outline: 0;
 }
