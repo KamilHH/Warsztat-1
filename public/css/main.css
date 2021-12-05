@@ -234,6 +234,7 @@ h2 {
 .opening__header {
   font-family: "Raleway", sans-serif;
   font-size: 3.0625rem;
+  font-weight: lighter;
 }
 .opening__heading {
   margin-top: 20px;
@@ -272,6 +273,7 @@ h2 {
 }
 .statistics__title {
   text-align: center;
+  font-weight: lighter;
 }
 .statistics__container {
   max-width: 800px;

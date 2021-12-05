@@ -19,7 +19,7 @@ function watcher(done) {
     browserSync.init({
         server: "./public/",
     });
-    gulp.watch(entryPath + "/**/*.scss", gulp.series(compileSass, reload));
+    gulp.watch(entryPath, gulp.series(compileSass, reload));
     gulp.watch("./public/*.html", gulp.series(reload));
     done();
 }
