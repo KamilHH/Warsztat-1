@@ -698,9 +698,9 @@ h2 {
   height: 11px;
   display: inline-block;
   margin-right: 10px;
-  background-image: url("../../public/assets/Chechmark-2.svg");
+  background-image: url("../assets/Chechmark-2.svg");
 }
 .pricing__item--not::before {
-  background-image: url("../../public/assets/Close.svg");
+  background-image: url("../assets/Close.svg");
 }
 /*# sourceMappingURL=main.css.map */
