@@ -19,8 +19,9 @@ function watcher(done) {
     browserSync.init({
         server: "./public/",
     });
-    gulp.watch(entryPath, gulp.series(compileSass, reload));
     gulp.watch("./public/*.html", gulp.series(reload));
+    gulp.watch("./public/js/*.js", gulp.series(reload));
+    gulp.watch(entryPath, gulp.series(compileSass, reload));
     done();
 }
 function reload(done) {
